@@ -1,9 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
 body {
   font-size: 1rem;
+  background-color: bisque;
+  font-family: 'PT Serif', serif;
 }
 
 button {
   height: 1.4rem;
+  background-color: chartreuse;
+  border: 1px solid black;
+  border-radius: 0.1rem;
+  cursor: pointer;
+}
+
+input {
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  background-color: aqua;
 }
 
 h1 {
@@ -38,6 +58,11 @@ section {
 .leaderboard li {
   background-color: beige;
   display: flex;
+}
+
+.leaderboard li:nth-child(odd) {
+  background-color: blueviolet;
+  color: aliceblue;
 }
 
 .name {

@@ -12,7 +12,7 @@ submitButton.addEventListener('click', async (e) => {
     user: nameInput.value,
     score: scoreInput.value,
   };
-  await addScore(scoreObj).then((response) => console.log(response.result));
+  await addScore(scoreObj).then((response) => response.result);
 });
 
 refreshButton.addEventListener('click', async (e) => {
