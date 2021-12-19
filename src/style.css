@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 body {
-  font-size: 1rem;
+  font-size: 1.1rem;
   background-color: bisque;
   font-family: 'PT Serif', serif;
 }
@@ -61,7 +61,7 @@ section {
 }
 
 .leaderboard li:nth-child(odd) {
-  background-color: blueviolet;
+  background-color: rgb(115, 48, 177);
   color: aliceblue;
 }
 
